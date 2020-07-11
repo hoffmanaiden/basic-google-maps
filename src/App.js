@@ -83,7 +83,7 @@ function App() {
             key={marker.time.toISOString()}
             position={{ lat: marker.lat, lng: marker.lng }}
             icon={{
-              url: '/castle.svg',
+              url: '/pin.svg',
               scaledSize: new window.google.maps.Size(50, 50),
               origin: new window.google.maps.Point(0, 0),
               anchor: new window.google.maps.Point(25, 25)
@@ -99,7 +99,7 @@ function App() {
             position={{ lat: selected.lat, lng: selected.lng }}
             onCloseClick={() => setSelected(null)}>
             <div>
-              <h2>Castle</h2>
+              <h2>Pin</h2>
               <p>Created {formatRelative(selected.time, new Date())}</p>
             </div>
           </InfoWindow>) : null}
