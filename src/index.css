@@ -1,37 +1,29 @@
 body {
   margin: 0;
-}
-h3{
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  color: #281414;
-  z-index: 10;
-  margin: 0;
-  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 900;
 }
 .search {
-  position: absolute;
-  top: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
   width: 100%;
-  max-width: 400px;
-  z-index: 10;
 }
 .locate{
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: none;
-  border: none;
-  z-index: 10;
 }
 .compass{
   font-size: 30px;
 }
 .popover{
   font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+  background-color: greenyellow;
+  height: 6vh;
+}
+.flex-grid{
+  display: flex;
+}
+.map-col{
+  flex: 1;
+}
+.sidebar{
+  background-color: lightgreen;
+  flex: 1;
 }
